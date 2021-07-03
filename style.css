@@ -1,0 +1,26 @@
+h1{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 50px;
+}
+.orange{
+    color: orange;
+}
+section{
+    display:flex;
+}
+.half-width{
+    width: 50%;
+    padding-left: 40px;
+}
+.half-width img{
+    width: 80%;
+    padding: left 200px;
+}
+.hire-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px;
+    border-radius: 4px;
+    color: white;
+    font-weight: 700;
+}
