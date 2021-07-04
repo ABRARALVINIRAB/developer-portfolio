@@ -10,7 +10,7 @@ h1{
 }
 section{
     display:flex;
-    padding-bottom: 15%;
+    padding-bottom: 10%;
 }
 .half-width{
     width: 50%;
@@ -53,10 +53,32 @@ section{
     margin-left: 5%;
     margin-left: 5%;
     padding: 5px;
-    box-shadow: 2px 2px 2px 1px gray;
-    border: 2px;
+    box-shadow: 5px 5px 5px  gray;
+   
     border-radius: 5px;
 }
 #ex{
-    margin-left: 80px;
+    margin-left: 20px;
+}
+.another-banner{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#for-border{
+    border-left: 10px solid;
+    border-image: linear-gradient(salmon,tomato) ;
+    border-image-slice:1;
+    
+  
+  }
+#for-border-image{
+  border-left: 10px solid;
+  border-image: linear-gradient(blue,cyan) ;
+  border-image-slice:1;
+  
+
+}
+footer p{
+    text-align: center;
 }
