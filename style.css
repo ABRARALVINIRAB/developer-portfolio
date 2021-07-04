@@ -1,3 +1,6 @@
+body{
+    margin: 0%;
+}
 h1{
     font-family: 'Fira Sans', sans-serif;
     font-size: 50px;
@@ -15,6 +18,10 @@ section{
 .half-width img{
     width: 80%;
     padding: left 200px;
+   
+}
+.big-paragraph{
+    font-size: larger;
 }
 .hire-button{
     text-decoration: none;
@@ -23,4 +30,15 @@ section{
     border-radius: 4px;
     color: white;
     font-weight: 700;
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    
+    
+}
+.big-dream{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
